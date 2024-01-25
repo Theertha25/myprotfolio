@@ -1,0 +1,101 @@
+:root{
+    --bg-color:#322653;
+    --btn-color:#EA1179;
+    --box-shadow: 0px 0px 5px var(var--btn-color);
+    --color:#fff;
+}
+body{
+    margin: 0;
+    background-color: var(--bg-color);
+    font-family: 'Ubuntu', sans-serif;
+}
+.header-menu{
+    box-shadow:0px 15px 10px -15px #EA1179; ;
+}
+header{
+    display: flex;
+    align-items: center;
+    width:80%;
+    margin: 0 auto;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.logo{
+    color:var(--color);
+    font-weight: 900;
+    letter-spacing: 1px;
+    text-decoration: none;
+}
+.logo label{
+    color:var(--btn-color);
+}
+nav ul{
+    display: flex;
+    gap:30px;
+    list-style: none;
+}
+nav ul a{
+    color: var(--color);
+    text-decoration: none;
+    transition: all .8s;
+}
+nav ul a:hover{
+    color: #EA1179;
+}
+/*section*/
+.container{
+    width: 80%;
+    margin: 0 auto;
+    height: 90vh;
+    display: flex;
+    align-items: center;
+}
+.container .left{
+    color: #fff;
+    width: 50%;
+}
+.container .left label{
+    text-shadow: 1px 1px white;
+}
+.container .left h1{
+    margin: 0;
+    font-size: 30px;
+    letter-spacing: 1px;
+    line-height: 40px;
+    
+}
+.container .right{
+    color: #fff;
+    width: 50%;
+}
+.container .right img{
+  box-shadow:3px 3px 10px white,
+             -3px -3px 10px white;
+}
+.container .left .sub-title{
+    color: #EA1179;
+}
+.container .left a{
+    background-color: green;
+    padding: 10px 18px;
+    text-decoration: none;
+    font-weight: 600;
+    color: #fff;
+    border-radius: 15px;
+    border: none;
+}
+.container .left a:hover{
+    color: orange;
+}
+button{
+    background-color:#EA1179;
+    padding: 10px 18px;
+    text-decoration: none;
+    font-weight: 600;
+    color: #fff;
+    border-radius: 15px;
+    border: none;
+}
+button:hover{
+    color: black;
+}
